@@ -1,6 +1,6 @@
 table {
     table-layout: fixed; /* Asegura que las columnas tengan un tamaño fijo */
-    width: 100%; /* La tabla ocupa el 100% del contenedor */
+    width: 80%; /* La tabla ocupa el 100% del contenedor */
 }
 th, th {
     font-size: medium;

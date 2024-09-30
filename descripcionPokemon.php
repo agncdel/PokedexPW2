@@ -31,7 +31,8 @@ if (isset($_POST["usuario"]) && isset($_POST["contrasena"])) {
 <main class="w3-light-gray w3-padding-64" style="display: flex;justify-content: center;">
     <img style="width: 20%; height:20%;" src="<?php echo htmlspecialchars($extraido['imagen'])?>">
     <div><h1 class="w3-padding"><?php echo htmlspecialchars($extraido['tipo']) . " | " . htmlspecialchars($extraido["nombre"])?></h1>
-    <h3 class="w3-padding"> <?php echo htmlspecialchars($extraido["descripcion"])?></h3></div>
+    <h3 class="w3-padding"> <?php echo htmlspecialchars($extraido["descripcion"])?></h3>
+        <a class="w3-button w3-black w3-margin w3-round-large" href="pokedex.php">Volver</a>
 
 </main>
 <footer class="w3-padding-48 w3-2020-mosaic-blue">

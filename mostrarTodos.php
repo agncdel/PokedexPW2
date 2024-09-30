@@ -24,7 +24,7 @@ $resultado = mysqli_query($conexion, "SELECT * FROM pokemon ORDER BY id_pokemon 
 
 while($fila = mysqli_fetch_array($resultado)){
     echo "<tr class='w3-blue-gray'>
-                <th><img style='width:6rem; height:6rem;' src='" . htmlspecialchars($fila["imagen"]) . "'></th>
+                <th><img style='width:6rem; height:6rem;' src='" . htmlspecialchars($fila["imagen"]) . "' alt='pokemon'></th>
                 <th>" . htmlspecialchars($fila["tipo"]) . "</th>
                 <th>" . htmlspecialchars($fila["id_pokemon"]) . "</th>
                 <th><a href='descripcionPokemon.php?id=" . htmlspecialchars($fila["id"]) . "'>" . htmlspecialchars($fila["nombre"]) . "</a></th>";
