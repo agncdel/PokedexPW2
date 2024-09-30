@@ -46,7 +46,7 @@ include_once "headerLogueado.php";
     }
     ?>
 </table>
-    <div class="w3-button w3-round-large w3-black w3-padding w3-margin" style="position: fixed;bottom: 20px;right: 20px;"><a href="agregarPokemon.php">Agregar Pokemón</a></div>
+    <a href="agregarPokemon.php"><div class="w3-button w3-round-large w3-black w3-padding w3-margin" style="position: fixed;bottom: 20px;right: 20px;">Agregar Pokemón</div></a>
 </main>
 <footer class="w3-padding-48 w3-2020-mosaic-blue">
 </body>

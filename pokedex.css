@@ -1,17 +1,11 @@
 table {
-    table-layout: fixed; /* Asegura que las columnas tengan un tamaño fijo */
-    width: 80%; /* La tabla ocupa el 100% del contenedor */
+    table-layout: fixed;
+    width: 80%;
 }
-th, th {
+th {
     font-size: medium;
     padding: 30px;
     margin: 0;
     border: 2px solid black;
-    max-width: 150px; /* Ancho máximo para que no se desborde */
-}
-
-header, footer {
-    width: 100vw;
-    margin: 0;  /* Elimina cualquier margen lateral */
-    padding: 0;
+    max-width: 150px;
 }

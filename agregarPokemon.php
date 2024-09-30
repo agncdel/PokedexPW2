@@ -24,22 +24,22 @@ if (!isset($_SESSION["logueado"])) {
 include_once "headerLogueado.php";
 ?>
 
-<main class="w3-light-gray" style="padding-left: 25%;padding-right: 25%;">
+<main class="w3-light-gray">
     <form style="display: flex; justify-content: center" method="post" enctype="multipart/form-data">
-        <div class="w3-margin w3-padding-64" style="width:25rem;">
-            <div style="display:flex; justify-content: space-between;"><label>Nombre: </label>
-                <input type="number" placeholder="Ingrese el ID del pokemon" name="id_pokemon" required></div><br>
+        <div class="w3-margin w3-padding-64" style="width:40rem;">
+            <div style="display:flex; justify-content: space-between;"><label>ID Pokemón: </label>
+                <input style="width: 50%;" type="number" placeholder="Ingrese el ID del pokemon" name="id_pokemon" required></div><br>
 
-            <div style="display:flex; justify-content: space-between;"><label>Tipo: </label>
-                <input type="text" placeholder="Ingrese el nombre" name="nombre" required></div><br>
+            <div style="display:flex; justify-content: space-between;"><label>Nombre: </label>
+                <input style="width: 50%; type="text" placeholder="Ingrese el nombre" name="nombre" required></div><br>
 
             <div style="display:flex; justify-content: space-between;"><label>Descripción: </label>
-                <textarea placeholder="Ingrese la descripcion" name="descripcion" required></textarea></div><br>
+                <textarea style="width: 50%;" placeholder="Ingrese la descripción" name="descripcion" required></textarea></div><br>
 
-            <div style="display:flex; justify-content: space-between;"><label>Id Pokemón: </label>
-                <input type="text" placeholder="Ingrese el/los tipos" name="tipo" required></div><br>
+            <div style="display:flex; justify-content: space-between;"><label>Tipo: </label>
+                <input style="width: 50%;" type="text" placeholder="Ingrese el/los tipos" name="tipo" required></div><br>
 
-            <div style="display:flex; justify-content: space-between;"><label>Imágen del Pokemón: </label>
+            <div style="display:flex; justify-content: space-between;"><label>Imágen del Pokemón:</label>
                 <input type="file" name="imagen" required></div><br>
             <input type="submit" value="Agregar">
         </div>
